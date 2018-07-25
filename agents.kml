@@ -1,0 +1,5683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>All Agents Mapped To Seal In South</name>
+    <description><![CDATA[This Includes all agents mapped to Seal in south as of June 1st 2018. Also included is agents where the  mapping failed. These are marked as pending. Where the GPS coordinates are missing, the allocated gps is at district HQ and the agent description includes name "Unmapped".]]></description>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>MF_A</name>
+      <Placemark>
+        <name>Bahauheloa Farm Feed</name>
+        <description>D| 58141924 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4326,-29.99798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabong General Cafe</name>
+        <description>C| 50329713 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.38265,-29.97739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linotsing General Cafe</name>
+        <description>E| 56255683 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42083,-29.95745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mshoza Tarven</name>
+        <description>D| 56215696 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42258,-29.9507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tonado General Cafe</name>
+        <description>C| 50334827 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44209,-29.94577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lai Lai General Cafe</name>
+        <description>E| 50299458 | Lower MF |Borata</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2258,-29.93183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bofihla General Cafe</name>
+        <description>B| 56255576 | Lower MF |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43019,-29.92164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabanamorena Tarven</name>
+        <description>D| 50334569 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42969,-29.92156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kutloanong General Dealer</name>
+        <description>B| 56255666 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42977,-29.92146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taung General Cafe</name>
+        <description>D| 56215669 | Lower MF |Thabana Morena</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.36547,-29.88284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hlony General Dealer</name>
+        <description>E| 51891745 | Lower MF |Borata</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24585,-29.88233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Streamside General Dealer</name>
+        <description>B| 56269120 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.67924,-29.86377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakubung General Dealer</name>
+        <description>C| 56215623 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.68144,-29.86167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roadside General Cafe</name>
+        <description>E| 56696001 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25962,-29.84166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmtech</name>
+        <description>E| 58145650 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24983,-29.83726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itumeleng Cafe</name>
+        <description>E| 56255566 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25368,-29.83644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boitumelo General Cafe</name>
+        <description>C| 51891779 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25081,-29.83206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matebele G Cafe</name>
+        <description>E| 56312199 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26193,-29.83068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bypass General Cafe</name>
+        <description>B| 51891193 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25172,-29.83047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Mighty Moss General Cafe</name>
+        <description>B| 56269123 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26187,-29.82971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Container Mahao</name>
+        <description>C| 56215620 | Lower East |Matelile</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.59945,-29.82916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rorisang General cafe</name>
+        <description>C| 56255559 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23296,-29.82875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ithabeleng General Cafe</name>
+        <description>D| 56269127 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25163,-29.82685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Refeng Khotso G Cafe</name>
+        <description>D| 56255572 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22752,-29.82598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Hlalele</name>
+        <description>B| 50299463 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22929,-29.82584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Side Way General Cafe</name>
+        <description>C| 50329780 | East |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.28752,-29.82482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Masutsa</name>
+        <description>B| 58144609 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24899,-29.82447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lerato General Cafe</name>
+        <description>A| 56230423 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24372,-29.82446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fashion Choice</name>
+        <description>A| 51891148 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24659,-29.8241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Qotata General Cafe</name>
+        <description>E| 56255679 | East |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.28504,-29.82406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leuta Hardware</name>
+        <description>B| 50325873 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24923,-29.82351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocka villa general cafe</name>
+        <description>B| 51891713 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22891,-29.82344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ha Mphefeela</name>
+        <description>B| 56069935 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24608,-29.8233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAC Glass Alluminium Hardware</name>
+        <description>E| 58151062 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23719,-29.82327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Street Vendor Moeti</name>
+        <description>D| 56312197 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24221,-29.82326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Lefaso</name>
+        <description>C| 56312185 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24459,-29.82326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Ratsatsinyane</name>
+        <description>E| 56230402 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24995,-29.82323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moselantja Hair Salon</name>
+        <description>B| 56255676 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24744,-29.82322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MS Lesoma and Family Plan</name>
+        <description>D| 58423987 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24351,-29.82307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabang Tsolo Tarven</name>
+        <description>D| 56696174 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24565,-29.82293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Begin Fabric and Design</name>
+        <description>B| 51891192 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24722,-29.8229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dawn  Enterprise communications</name>
+        <description>B| 58423976 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24461,-29.82286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blessings Hair Salon agent</name>
+        <description>E| 50307182 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24755,-29.82281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matsoanelo hair Salon</name>
+        <description>D| 56269046 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24737,-29.82271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iteleng Public Bar</name>
+        <description>C| 56255571 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22758,-29.82257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fashion Focus</name>
+        <description>D| 56696187 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24208,-29.82254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mafeteng Garden Centre</name>
+        <description>E| 56255561 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teboho Cafe</name>
+        <description>D| 50299465 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25794,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gynette Mateti Matlanyane</name>
+        <description>A| 56255682 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24144,-29.82246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazenod Printing Works</name>
+        <description>C| 56696055 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24126,-29.82236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MTNECOVODA Airtimers</name>
+        <description>A| 50325433 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24593,-29.82225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Folks Motor Spares</name>
+        <description>C| 56277981 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.242,-29.82224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Masia</name>
+        <description>C| 56215618 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24605,-29.82215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JUNBO Furnitures</name>
+        <description>C| 50329174 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24199,-29.82215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M21 Printers and Video Production</name>
+        <description>D| 50307174 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24154,-29.82212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahapaneng Shebeen</name>
+        <description>E| 56255686 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23596,-29.82203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phephetso G Cafe</name>
+        <description>E| 50299531 | East |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.31036,-29.82201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Letsatsi</name>
+        <description>B| 56696124 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24607,-29.822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mr Cellphone</name>
+        <description>E| 56255673 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24547,-29.8216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pendullum Communications</name>
+        <description>B| 56230261 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24456,-29.82149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Mode Botique</name>
+        <description>B| 50334886 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2445,-29.82145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makena General Cafe</name>
+        <description>E| 56696010 | East |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.31392,-29.82141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Al Qudse</name>
+        <description>C| 50334859 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24596,-29.82113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unique Concepts</name>
+        <description>C| 51891123 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24438,-29.82108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beauty Cosmetic Shop</name>
+        <description>B| 50334874 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24403,-29.82099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Katleho Farm Feeds</name>
+        <description>D| 50334929 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24318,-29.82079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thakamo General Cafe</name>
+        <description>E| 50329755 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22357,-29.82061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matelile Community Development Centre</name>
+        <description>D| 56696261 | Lower East |Matelile</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.51975,-29.82058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sekoting General Cafe</name>
+        <description>C| 56255681 | East |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.27984,-29.82053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MK Printing</name>
+        <description>C| 50334858 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24331,-29.82021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glam Gift</name>
+        <description>D| 50329421 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24324,-29.81993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Moleleki</name>
+        <description>B| 56215697 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23079,-29.81986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow General Cafe</name>
+        <description>C| 56255558 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25296,-29.81858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luma General Cafe</name>
+        <description>B| 50985320 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23488,-29.81845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Retselisitsoe le Liteboho</name>
+        <description>C| 56255568 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22538,-29.81797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Semphete General Cafe</name>
+        <description>D| 56215616 | East |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.33224,-29.8171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lucky Five General Cafe</name>
+        <description>E| 56269055 | Lower East |Matelile</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.507,-29.81544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsoane Shoprite</name>
+        <description>B| 56269043 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25582,-29.81464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Lounge</name>
+        <description>C| 58660443 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2301,-29.81401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mathula General Store</name>
+        <description>D| 51891156 | Lower East |Matelile</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.50661,-29.81052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Katlehong General Cafe</name>
+        <description>D| 56215617 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25334,-29.81028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leloaleng G Cafe</name>
+        <description>B| 56255577 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25176,-29.81007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motsolo General Cafe</name>
+        <description>B| 50985061 | Lower East |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.50489,-29.80992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milner Park G Cafe</name>
+        <description>B| 56255569 | Central |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21898,-29.80679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toreng G cafe</name>
+        <description>E| 56255574 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22004,-29.80518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Splendour</name>
+        <description>B| 56255640 | Central |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25494,-29.80349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabaneng General Cafe</name>
+        <description>D| 58140149 | NE Rd to Maseru |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26838,-29.79525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benny and Betty G Cafe</name>
+        <description>E| 56255565 | NE Rd to Maseru |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26104,-29.79518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taung General Cafe</name>
+        <description>B| 56696013 | NE Rd to Maseru |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26674,-29.79305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sefako Lesako</name>
+        <description>D| 50329774 | Central |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23294,-29.79007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Four Star</name>
+        <description>B| 56255685 | NE Rd to Maseru |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.28593,-29.77889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Kaizer Mankhoro</name>
+        <description>D| 56269092 | NE Rd to Maseru |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.29014,-29.77841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roses General</name>
+        <description>B| 56215647 | NE Rd to Maseru |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.28964,-29.77838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boithatelo General Cafe</name>
+        <description>D| 50985702 | Lower East |Thaba Tsoeu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.41604,-29.77759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nonyana ea Mpitsa</name>
+        <description>E| 56269064 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.64983,-29.77367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Two Sisters General Cafe</name>
+        <description>C| 50307188 | Lower East |Matelile</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.52232,-29.77354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phera General Dealer</name>
+        <description>D| 58153250 | Northern |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.18212,-29.7692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng General Cafe</name>
+        <description>D| 51891157 | Northern |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.18532,-29.75949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tarven</name>
+        <description>C| 56255675 | Northern |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.1078,-29.75785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mathebe General Cafe</name>
+        <description>E| 50299461 | NE Rd to Maseru |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.38445,-29.75764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mabiki General Cafe agent</name>
+        <description>C| 50325590 | Northern |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.17067,-29.75719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakhatla G Cafe</name>
+        <description>E| 56255669 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.54138,-29.75616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maholong Clothing Shop</name>
+        <description>C| 50329743 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.54707,-29.75533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakuena General Dealer</name>
+        <description>E| 56255684 | Northern |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.13694,-29.75251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre City general cafe</name>
+        <description>D| 50985649 | NE Rd to Maseru |Thaba Tsoeu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42147,-29.74949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matebele General Dealer</name>
+        <description>C| 50329766 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.55968,-29.74874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pula Maliboho General Cafe</name>
+        <description>B| 56215604 | NE Rd to Maseru |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.34566,-29.74748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiteko General Cafe</name>
+        <description>D| 56255668 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.55772,-29.74681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makokotoaneng Store</name>
+        <description>C| 58144607 | NE Rd to Maseru |Thaba Tsoeu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.41911,-29.73777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basotho General Cafe agent</name>
+        <description>D| 50325889 | Northern |Qalabane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.1497,-29.73752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Rakhoho</name>
+        <description>C| 56215643 | NE Rd to Maseru |Likhoele</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.36929,-29.73417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khalapa General Cafe</name>
+        <description>C| 50329753 | NE Rd to Maseru |Kolo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.29048,-29.73388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boithabiso General Cafe</name>
+        <description>D| 56696293 | Lower East |Maliepetsane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.54547,-29.73048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Rose Tarven</name>
+        <description>C| 56312128 | NE Rd to Maseru |Thaba Tsoeu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.436,-29.69054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boithatelo Cafe</name>
+        <description>E| 56255638 | NE Rd to Maseru |Thaba Tsoeu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43866,-29.68697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayside General Cafe agent</name>
+        <description>D| 56255665 | NE Rd to Maseru |Kolo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.37706,-29.68041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description>C| 51891145 | Northern |Tsa Kholo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.17778,-29.66485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Thabure Triple 6</name>
+        <description>E| 56230403 | Northern |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26798,-29.66241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Savemore General Cafe</name>
+        <description>B| 56269135 | Northern |Tsa Kholo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.16016,-29.64762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>S A M General Dealer</name>
+        <description>B| 50334048 | Northern |Tsa Kholo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.16488,-29.64706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mapotu General Dealer</name>
+        <description>C| 51891791 | Northern |Mopotu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21811,-29.63755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nkone G Cafe</name>
+        <description>C| 56255687 | Northern |Mopotu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25613,-29.63385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakubung Cafe</name>
+        <description>D| 51891155 | Northern |Kolo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.33854,-29.58675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Birds</name>
+        <description>C| 51891764 | Northern |Kolo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2566,-29.58453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mabontle General Cafe</name>
+        <description>C| 56230417 | Northern |Kolo</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.32363,-29.58376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diamond Field General Cafe</name>
+        <description>D| 51891149 | Northern |MF Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23215,-29.57563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng General Cafe</name>
+        <description>E| 56269045 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chobokoane General Dealer</name>
+        <description>E| 56269132 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smiling Snack Bar</name>
+        <description>C| 56269124 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Mahlomaholo</name>
+        <description>D| 58851539 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Up to Date General Dealer</name>
+        <description>E| 56269091 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Buti Kholane</name>
+        <description>D| 56269078 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza shop Mahao</name>
+        <description>E| 56230409 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Street Vendor Pheko</name>
+        <description>E| 56230405 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Monroe</name>
+        <description>E| 56230280 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Makafane</name>
+        <description>E| 56312129 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Letebele General Cafe</name>
+        <description>E| 56696011 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boitelo General Cafe</name>
+        <description>E| 50299500 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motsekuoa Catering</name>
+        <description>E| 50521741 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng Cafe</name>
+        <description>E| 50325583 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ntoetjane Z Mohau</name>
+        <description>B| 58529211 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung Hawkers</name>
+        <description>E| 58144608 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>MF_B</name>
+      <Placemark>
+        <name>Marshallah Furniture</name>
+        <description>B|50326456|Thabana Morena|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42141,-29.95916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reitumetse General Cafe</name>
+        <description>E|51891109|Thabana Morena|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.36949,-29.94259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sehlabeng Farm Inputs</name>
+        <description>D|59822640|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.50909,-29.93857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayside Tavern</name>
+        <description>C|58505345|Thabana Morena|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42326,-29.93701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iketle Moshanyana General Dealer</name>
+        <description>E|58149230|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22152,-29.9309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Come Again General Dealer and Supplier</name>
+        <description>D|58426625|Matelile|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.5622,-29.87373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ribaneng Cash Store</name>
+        <description>D|56215665|Matelile|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.67372,-29.86541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motlatsi Makhapha Moea o Motle Tavern</name>
+        <description>D|58504136|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.54251,-29.85386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boitelo General Dealer</name>
+        <description>C|50329194|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23062,-29.8427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leratong General Cafe</name>
+        <description>E|56696007|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23521,-29.83984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabong G Cafe</name>
+        <description>B|56255575|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22921,-29.83901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabelang G Cafe</name>
+        <description>D|50326561|Likhoele|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.35197,-29.83704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malealea General Dealer agent</name>
+        <description>C|50325690|Matelile|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.59769,-29.83065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soweto General Cafe</name>
+        <description>C|58436925|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25335,-29.8296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malealea Training</name>
+        <description>B|50326301|Matelile|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.5997,-29.82834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Katleho General Dealer</name>
+        <description>D|50326101|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25287,-29.8278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Josisi G Cafe</name>
+        <description>B|50326544|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2446,-29.82687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thuto General Cafe</name>
+        <description>D|58778776|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26393,-29.82656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nthoesana General Cafe</name>
+        <description>C|50299894|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22989,-29.82466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lady J Fabrics</name>
+        <description>B|56269136|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24669,-29.82408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jay Holdings PTY Ltd</name>
+        <description>B|50326531|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24688,-29.82404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City Brothers</name>
+        <description>D|50329159|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24913,-29.82363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bantu Football Club</name>
+        <description>E|50326291|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24999,-29.82352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Fashion Shop</name>
+        <description>D|57674772|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24762,-29.82346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Damane chiken and animal feed</name>
+        <description>C|58424038|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24739,-29.82318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haji Ismail Moosa Hypersave</name>
+        <description>A|56069934|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24559,-29.82316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Center City General Dealer</name>
+        <description>D|50326231|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24278,-29.82311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Health Essentials</name>
+        <description>C|50329147|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24562,-29.8231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kelello Putsoane</name>
+        <description>A|50329647|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2471,-29.823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahapu Fruits And Verg</name>
+        <description>B|50326211|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24772,-29.82285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BIBI Snack Bar</name>
+        <description>C|50326545|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24381,-29.82274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tseliso Tsehlo Bar</name>
+        <description>B|50326160|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24343,-29.82273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mafeteng Computer Shop</name>
+        <description>C|50329136|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24064,-29.82272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Precise Delicious Catering</name>
+        <description>D|58925968|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24705,-29.82268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cosmetics and Fragrances</name>
+        <description>B|50326094|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24028,-29.82257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morero Industries</name>
+        <description>E|58055447|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2378,-29.82248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paperland Suppliers</name>
+        <description>D|57431568|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23787,-29.82248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tech World Printing</name>
+        <description>D|51776333|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24088,-29.82248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPA2A2A Shop Mohlominyane</name>
+        <description>B|50326194|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24637,-29.82248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KB Enterprise agent</name>
+        <description>B|50325882|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24151,-29.82244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sima Communications agent</name>
+        <description>B|50325908|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24611,-29.82243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dawn Hair Salon</name>
+        <description>A|56277975|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24254,-29.82242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rorisang G Cafe</name>
+        <description>B|50326529|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24137,-29.82241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TAB Cosmetics</name>
+        <description>B|58430940|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23787,-29.82232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dough Land</name>
+        <description>A|50326206|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24593,-29.82225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Furniture and Household Appliances</name>
+        <description>C|56255670|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24424,-29.82174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interzone Computech</name>
+        <description>E|58084751|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24199,-29.82169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casnad Cellular</name>
+        <description>B|56269179|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24457,-29.82145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mpeos Hair Salon</name>
+        <description>C|50246528|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24719,-29.82134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>We save health and beauty shop</name>
+        <description>D|59061120|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24421,-29.82128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karabo Clothing Shop</name>
+        <description>C|53494321|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24505,-29.82113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Mphou</name>
+        <description>E|50329603|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24062,-29.82004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fragrance World</name>
+        <description>E|50246527|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23605,-29.81999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lekaota Mafeteng Clothing and Printing</name>
+        <description>B|50326565|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2465,-29.81924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L M Printing</name>
+        <description>C|50329620|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24079,-29.81913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kena Ka Khotso Cafe</name>
+        <description>D|58012031|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.51757,-29.81912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heavy Rain General Cafe</name>
+        <description>C|58146675|MF Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21851,-29.81846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zussan Clothing</name>
+        <description>B|58992972|Matelile|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.50635,-29.81806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tebo Bricks Supply</name>
+        <description>C|58425016|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21862,-29.81652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cabaza</name>
+        <description>C|50386108|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25554,-29.81488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakuena G Cafe</name>
+        <description>C|50326543|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.15515,-29.8127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital General Cafe</name>
+        <description>B|50125651|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.23954,-29.81192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakubung  Offsales</name>
+        <description>B|58429024|Matelile|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.50562,-29.81,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milner Park Public Bar</name>
+        <description>C|58429034|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21881,-29.80711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rankunyane Butchery</name>
+        <description>B|58504865|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21812,-29.80448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calvins General Dealer</name>
+        <description>E|50329121|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21832,-29.80445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahooaneng General Cafe</name>
+        <description>C|50329610|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22226,-29.80219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Masechaba General Dealer</name>
+        <description>D|58900167|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.25526,-29.80158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mapaballo Metsing</name>
+        <description>C|58954055|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.21085,-29.79976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lapeng General Cafe</name>
+        <description>E|50307196|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.22931,-29.79683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PFC Company</name>
+        <description>B|51891110|MF Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26666,-29.7904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiteko General Dealer</name>
+        <description>D|50326212|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.2176,-29.78649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rea o Boka General Cafe</name>
+        <description>C|58504875|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.18634,-29.77091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jeff general Cafe</name>
+        <description>D|59467514|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.12628,-29.76138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manthatisi Motsetse TA Spoon</name>
+        <description>B|58998387|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.10962,-29.756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Relebohile Tarr</name>
+        <description>E|50334577|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.10943,-29.75543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RoadSide General Dealer</name>
+        <description>D|50329164|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.20364,-29.74751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description>B|50326205|Maliepetsane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.72352,-29.73514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description>C|50329143|Maliepetsane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.56231,-29.7281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baby Walker General Dealer</name>
+        <description>C|50846686|Maliepetsane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.52356,-29.72058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng General Cafe</name>
+        <description>C|50125650|Thaba Tsoeu|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42348,-29.71874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bahlakoana Cafe</name>
+        <description>D|50326238|Qalabane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.14236,-29.70082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Success General Dealer</name>
+        <description>B|50329120|Thaba Tsoeu|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43573,-29.69127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsoaing G Cafe</name>
+        <description>B|50521749|Thaba Tsoeu|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43626,-29.69121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description>B|50326070|Thaba Pechela|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.17223,-29.60439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thupa Kubu General Dealer agent</name>
+        <description>C|50325693|Kolo|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.34492,-29.58864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bokone Trading Store</name>
+        <description>C|50334853|Kolo|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26634,-29.54685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Care Pharmacy Agent</name>
+        <description>D|56332954|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khutsong Tarvern</name>
+        <description>B|59017251|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L Hanong Tavern</name>
+        <description>D|58556903|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lapeng G Cafe</name>
+        <description>C|50509276|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lebohang Moopela Street Vendor</name>
+        <description>D|50334572|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Letsie G Dealer</name>
+        <description>E|56529980|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makholokoe General cafe2</name>
+        <description>E|58460868|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morning Star</name>
+        <description>E|56255578|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>T and T Collection</name>
+        <description>B|63601185|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thaba Kholo General Cafe</name>
+        <description>E|50985778|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayside General Dealer agent</name>
+        <description>C|58143951|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Refeng Khotso Snack Bar</name>
+        <description>E|56255570|Unmapped|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.24301,-29.82252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buy IT</name>
+        <description>D|56343085|Maseru Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4979,-29.31509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Masefabatho Mohale</name>
+        <description>C|58583886||</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47565,-29.31418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brother and Sister Sewing and Fashion</name>
+        <description>D|59690026||</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.49554,-29.31221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>MH</name>
+      <Placemark>
+        <name>Hata Butle General Cafe</name>
+        <description>C| 56696296 | South Road |Mekaling</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.55391,-30.38103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seaka Tarven</name>
+        <description>D| 56696299 | South Road |Mekaling</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.56282,-30.37228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ntseliseng General Cafe</name>
+        <description>C| 56696225 | Tsoloane |Mekaling</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.45876,-30.28243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laphofia Fruits and Vegetables</name>
+        <description>B| 50985748 | Central |Mekaling</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4387,-30.24342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boithatelo General Cafe</name>
+        <description>C| 56696129 | South Road |Qaqatu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.84676,-30.23591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nthatuoa General Cafe</name>
+        <description>D| 56696171 | Tsoloane |Qaqatu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.8087,-30.22821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Six Nine Five General Cafe</name>
+        <description>D| 50299464 | Central |Ketane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.86331,-30.2165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monakane General Dealer</name>
+        <description>C| 50299524 | Central |Qaqatu</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.83029,-30.2066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fifty Fifty General Dealer</name>
+        <description>C| 50325647 | Central |Maphatseng</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.51457,-30.20587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thaba Bosiu General Cafe</name>
+        <description>B| 56230278 | Central |Mesitsaneng</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.41653,-30.19959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bigger General Dealer</name>
+        <description>B| 58417595 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47297,-30.15867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mvundle General Cafe</name>
+        <description>A| 50329902 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43948,-30.15612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Semoko General Cafe</name>
+        <description>B| 56696027 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47211,-30.15563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohlotsane General Shop</name>
+        <description>D| 50325685 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47987,-30.15502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alco Hole Public Bar</name>
+        <description>E| 56696232 | Tsoloane |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47176,-30.1547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smart and Lovely hair saloon</name>
+        <description><![CDATA[B| 56277987 | Old Mohale's Hoek |MH Central]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48037,-30.1541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazenod Printing Works</name>
+        <description>B| 56696074 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48054,-30.15397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohales Hoek Cosmetics</name>
+        <description>C| 58417600 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48081,-30.1539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bring Cr8tinity Tech</name>
+        <description>D| 58570916 | Other |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47953,-30.15358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Likhutlong General Cafe</name>
+        <description>B| 56312216 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48342,-30.15339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy City Furniture and Hardware</name>
+        <description><![CDATA[B| 56269145 | Old Mohale's Hoek |MH Central]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4795,-30.1532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Pebane</name>
+        <description>A| 56230371 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48128,-30.15309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FairSave Supermarket</name>
+        <description>A| 50521740 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47835,-30.15229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>fairways super</name>
+        <description>A| 58508604 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47966,-30.15218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lekhaloaneng General Cafe</name>
+        <description>D| 56696229 | Tsoloane |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4791,-30.15115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Mathato</name>
+        <description>D| 56696114 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47854,-30.15104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monares Catering</name>
+        <description>B| 50334826 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46074,-30.15086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bypass Butchery</name>
+        <description>B| 50332428 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46122,-30.15079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Container Mosuoe</name>
+        <description>C| 56215600 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47584,-30.15078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Promises Public Bar</name>
+        <description>B| 56696252 | Tsoloane |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46109,-30.15075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bokamoso General Cafe</name>
+        <description>B| 56230274 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44465,-30.15045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Four Sisters Snack Bar</name>
+        <description>A| 51891790 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47578,-30.15036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Batsoeneng G Cafe</name>
+        <description>A| 56230410 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44719,-30.14955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cola General Cafe</name>
+        <description>C| 56230266 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46427,-30.14561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oasis Public Bar</name>
+        <description>C| 50307164 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46926,-30.13558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leseli Book Shop</name>
+        <description>A| 56696227 | Tsoloane |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46853,-30.13481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phoka General Dealer</name>
+        <description>C| 56230424 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48178,-30.13232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basia General Cafe</name>
+        <description>B| 50332401 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.49304,-30.13143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nchorosetsa Offsales</name>
+        <description>B| 56696230 | Tsoloane |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46628,-30.12736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lesisitheho Lekaota</name>
+        <description>C| 50334829 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46583,-30.12729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RoadSide General Cafe</name>
+        <description>B| 50329900 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46386,-30.12586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ratanang General Dealer</name>
+        <description>B| 56269048 | Central |Qhalasi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44254,-30.11932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roadside general cafe</name>
+        <description><![CDATA[E| 56277989 | Old Mohale's Hoek |MH Central]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.473,-30.10798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakuena General Dealer</name>
+        <description>E| 58570928 | Other |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47442,-30.10732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Ramokepa</name>
+        <description>B| 56696143 | South Road |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44703,-30.10188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lefikeng General Cafe</name>
+        <description>C| 50299459 | Central |MH Central</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4792,-30.10132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description><![CDATA[B| 56269049 | Old Mohale's Hoek |MH Central]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.45193,-30.09828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tlhako General Cafe</name>
+        <description><![CDATA[B| 56269146 | Old Mohale's Hoek |Mpharane]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.49725,-30.09425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thibiri General Cafe</name>
+        <description><![CDATA[D| 56269148 | Old Mohale's Hoek |Qhalasi]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42103,-30.06636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung Lefikeng General Cafe</name>
+        <description><![CDATA[D| 56312150 | Old Mohale's Hoek |Taung]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.31454,-30.06336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description>C| 56312218 | South Road |Taung</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.39821,-30.04619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boiteko G Cafe</name>
+        <description>D| 50307137 | Central |Taung</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.32367,-30.02527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kae kae General Cafe</name>
+        <description>D| 50985391 | Central |Mpharane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.57248,-30.02379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leseli General Store</name>
+        <description>C| 56696255 | Other |Hloahloeng</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.17332,-30.02298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motsekuoa Tarven</name>
+        <description>D| 56230269 | Central |Taung</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.36111,-30.01596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mafube Tavern</name>
+        <description>C| 50332430 | Central |Ketane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.90813,-30.01586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Thibiri</name>
+        <description>B| 56312189 | South Road |Taung</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.35813,-30.01499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakoena General Cafe</name>
+        <description>E| 56696253 | Other |Hloahloeng</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.15228,-29.99183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village Gate General Cafe</name>
+        <description>E| 56696120 | South Road |Mpharane</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.63696,-29.9533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nama o Lule General Cafe</name>
+        <description>D| 56696231 | Tsoloane |Taung</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.33058,-29.94783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng General Cafe</name>
+        <description>B| 56230292 | Central |Taung</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.26338,-29.93726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Mokoqo</name>
+        <description>E| 58881509 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lepelesana Tarven</name>
+        <description>E| 56230389 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Monare</name>
+        <description>E| 56312103 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kubung General Dealer</name>
+        <description>E| 56696063 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise General Cafe</name>
+        <description>C|50326240|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.50348,-30.29513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lejoeng Tavern</name>
+        <description>D|58423129|Qaqatu|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.80117,-30.25062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Keke General Dealer</name>
+        <description>C|58907604|Mekaling|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43803,-30.24361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baphuthi General Cafe</name>
+        <description>D|58429207|Qaqatu|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.81482,-30.2186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roadside G Cafe</name>
+        <description>C|50325441|Mekaling|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43267,-30.21138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Setanteng General Cafe</name>
+        <description>B|50329644|Maphatseng|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.51401,-30.20591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thusanang General Dealer2</name>
+        <description>C|58726537|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.42046,-30.1857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mahlabatheng General Dealer</name>
+        <description>B|50334828|Mesitsaneng|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4384,-30.17,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eva Feel General cafe</name>
+        <description>C|58957833|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.45927,-30.15827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ntseliseng General Dealer</name>
+        <description>B|50329149|MH Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44635,-30.15744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Litsoeneng grneral cafe</name>
+        <description>C|50246532|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.43937,-30.15706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bigger Carpentry Joinery</name>
+        <description>B|50326197|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4757,-30.15654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corner Stone Cafe Agent</name>
+        <description>B|50325688|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46412,-30.15595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smart and Lovely Hair Salon</name>
+        <description>B|50326199|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48042,-30.15407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MEM Public Bar</name>
+        <description>D|56230290|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47495,-30.15392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kolisang Printing and Photocopying</name>
+        <description>A|50985625|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48046,-30.15385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lulus Catering</name>
+        <description>E|50326167|MH Central|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47988,-30.15379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anonaba Enterprise</name>
+        <description>B|58020628|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48042,-30.15369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maryams Canteen</name>
+        <description>E|50329013|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47924,-30.15288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indulge BookShop</name>
+        <description>E|50326265|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44613,-30.15281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Champs Consultancy Office Supplies and Printing Works PTY LTD</name>
+        <description>B|50329646|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47904,-30.1528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corners Change Public Bar</name>
+        <description>C|50329630|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48244,-30.15279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cash Point General Cafe</name>
+        <description>C|50325934|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.45779,-30.15242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JPS General Cafe</name>
+        <description>C|58030249|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46111,-30.15148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shani s Furniture and Cosmetics</name>
+        <description>B|56696238|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47701,-30.15126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>cola off sales</name>
+        <description>C|50326490|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4443,-30.15017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stee Architects and Construction</name>
+        <description>B|62622288|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46499,-30.14975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohloling Public bar</name>
+        <description>E|58454171|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.44716,-30.14954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chilla Nathi Public Bar agent</name>
+        <description>D|50325906|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.45334,-30.14935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pitso general dealer</name>
+        <description>C|53796322|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46195,-30.1446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vodacom Container Mhk</name>
+        <description>E|56255620|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47592,-30.13791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabong General Dealer</name>
+        <description>C|50329152|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46274,-30.13686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Choice General Cafe</name>
+        <description>C|50326239|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46961,-30.13654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakuena G Dealer</name>
+        <description>C|50326169|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.4628,-30.13467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TP General Cafe</name>
+        <description>E|58449584|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47639,-30.13364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Q City Dealer</name>
+        <description>C|50329128|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47435,-30.13112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bahlakoan Generl Dealer</name>
+        <description>C|58498224|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.48259,-30.13001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Majantja SuperMarket</name>
+        <description>B|50329188|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.46557,-30.1272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bokang General Cafe</name>
+        <description>B|50326171|MH Central|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47598,-30.10618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nkoboto Tavern</name>
+        <description>E|50326064|Mpharane|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.45904,-30.08293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>X14 General Dealer</name>
+        <description>B|56696144|Ketane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.85927,-30.07356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Town centre new shop</name>
+        <description>C|58422049|Ketane|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.86208,-30.07215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basia General Cafe</name>
+        <description>D|50299557|Qhalasi|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.38171,-30.07069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lekhalong General Dealer</name>
+        <description>D|50329178|Ketane|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.85823,-30.05081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakuena General Cafe</name>
+        <description>C|50329167|Mpharane|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.57196,-30.03104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khotso Tavern</name>
+        <description>D|50246529|Taung|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.32811,-29.9867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boitha General Cafe</name>
+        <description>B|50329199|Taung|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.27846,-29.95109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya Fothe General Cafe</name>
+        <description>C|50985040|Taung|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.27018,-29.94799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hopolang General Dealer</name>
+        <description>E|59529885|Hloahloeng|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.41119,-29.92782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bothoba Pelo G Cafe</name>
+        <description>D|56254239|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goldrush Lesotho Mohaleshoek</name>
+        <description>D|50917400|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motsekuoa General Dealer</name>
+        <description>E|59966855|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>United Supermarket</name>
+        <description>E|57731578|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.47927,-30.1529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>QT</name>
+      <Placemark>
+        <name>Tsolo General Dealer</name>
+        <description>E| 56696192 | Other |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.00384,-30.46098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakuena Cafe</name>
+        <description>E| 56312233 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.79035,-30.43487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lekata General Cafe</name>
+        <description>C| 56696169 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.74505,-30.43393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seotloaneng Snack Bar</name>
+        <description>A| 56255667 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70014,-30.40921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Qhetto Tarven</name>
+        <description>A| 50329408 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70563,-30.40612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Komati Cafe</name>
+        <description>C| 50985205 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.6555,-30.40266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng General Cafe</name>
+        <description>D| 56312143 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.64963,-30.40231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naledi General Cafe</name>
+        <description>B| 50334020 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.63519,-30.40138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phokeng Cafe</name>
+        <description>E| 56696191 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.71662,-30.4012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thusanang General Cafe</name>
+        <description>D| 50985206 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69562,-30.40081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makaota G Dealer</name>
+        <description>B| 50329752 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70361,-30.40061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moletsane INN Shebeen</name>
+        <description>B| 50329701 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70363,-30.40057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khali General Dealer</name>
+        <description>E| 58145653 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tip Top General Cafe</name>
+        <description>C| 50985038 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70856,-30.40038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Side Hotel</name>
+        <description>B| 56312219 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70729,-30.40037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazenod Printing Works</name>
+        <description>B| 56696073 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70508,-30.39948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J Raphah Pharmacy</name>
+        <description>B| 50334017 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69115,-30.39878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seapoint General Dealer</name>
+        <description>E| 56269129 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69143,-30.39865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nthateng General Dealer agent</name>
+        <description>A| 50325506 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.691,-30.39818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malineo Tarven</name>
+        <description>E| 50329740 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69104,-30.39806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>T and T General Cafe NO2</name>
+        <description>A| 50521729 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.66557,-30.39794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverside G Cafe</name>
+        <description>A| 50521732 | Central |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70341,-30.39776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makhaola Dellon Semoko</name>
+        <description>A| 50985044 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.66523,-30.39761,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>XI Tarven</name>
+        <description>C| 58145659 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.6649,-30.39729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meloli General Dealer</name>
+        <description>D| 56312145 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.63958,-30.39542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mathabang Khalieli</name>
+        <description>B| 56230401 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.62492,-30.39499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abia s General Dealer</name>
+        <description>B| 56230372 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.64051,-30.39025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boithatelo General Cafe</name>
+        <description>D| 56230374 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70171,-30.38446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ML General Dealer</name>
+        <description>D| 56312234 | Main Road |Alwynskop</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.6083,-30.37855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mamellong General Dealer</name>
+        <description>E| 56696260 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70033,-30.37632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Once and Always G cafe</name>
+        <description>D| 50307135 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69831,-30.3738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsoelopele General Cafe</name>
+        <description>C| 56312146 | Main Road |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.74188,-30.33811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phahameng General Dealer</name>
+        <description>C| 56696189 | Mount Moorosi |Sebapala</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.91588,-30.3362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dinny General Dealer</name>
+        <description>C| 56215687 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.84909,-30.2826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bochabela General Dealer</name>
+        <description>C| 50334830 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.05812,-30.27784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Setsing General Cafe</name>
+        <description>D| 56312239 | Main Road |Sebapala</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.73549,-30.27716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thusanang General Cafe</name>
+        <description>D| 50329747 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.06584,-30.27588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazenod Printing Works</name>
+        <description>A| 56696051 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.87485,-30.27318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Nkholise</name>
+        <description>E| 56312066 |  |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.87546,-30.27166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pangono Pangono General Dealer</name>
+        <description>B| 56230377 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.87787,-30.27087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Kotelo</name>
+        <description>B| 56215634 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.87687,-30.27063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Precious Offsales</name>
+        <description>A| 50329405 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.87831,-30.27032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diamond Field</name>
+        <description>B| 50985207 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.8782,-30.26988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise General Cafe</name>
+        <description>E| 58145654 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.07301,-30.23702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doti Store</name>
+        <description>B| 56696105 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.14252,-30.19451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bongalla General Dealer</name>
+        <description>D| 56312227 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.15585,-30.19248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nonyana General Dealer</name>
+        <description>D| 50329721 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.10433,-30.19232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsenki General Cafe</name>
+        <description>B| 56696053 | Qhoali |Moyeni QT</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.12599,-30.19214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RBS General Dealer</name>
+        <description>B| 56696066 | Qhoali |Qhoali</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.0654,-30.19011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roadside General Dealer</name>
+        <description>C| 56696195 | Mount Moorosi |Mt. Moorosi</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.96457,-30.14646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maoala G Cafe</name>
+        <description>D| 56255624 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vodacom Container Qtg</name>
+        <description>D| 56255621 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Motsoane</name>
+        <description>E| 58881501 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Lephoto</name>
+        <description>D| 58881508 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roadside General Cafe</name>
+        <description>E| 56312051 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LSB General Dealer</name>
+        <description>E| 56696181 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Mosolesa</name>
+        <description>E| 56696084 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naleli General Dealer</name>
+        <description>D| 56696068 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakoena Roadside General Dealer</name>
+        <description>E| 56696041 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TP Hlalele Farm Feeds</name>
+        <description>E|65888395|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.74721,-30.43198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>River Side Tarven</name>
+        <description>E|56312231|Tele|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.57192,-30.43158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khali General Cafe</name>
+        <description>C|59505237|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.74819,-30.43129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nthabiseng Bataung General Cafe</name>
+        <description>E|50326418|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.57771,-30.42877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Themba Lihle General Cafe</name>
+        <description>C|50329064|Tele|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.58198,-30.42247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phomane General Dealer</name>
+        <description>B|50329035|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69492,-30.41097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kananelo General Dealer</name>
+        <description>B|50329014|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70166,-30.40485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sindi Public Bar</name>
+        <description>C|58901952|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.65252,-30.40249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung Mini Market</name>
+        <description>B|50329036|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70328,-30.40169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monateng General Dealer</name>
+        <description>B|50326089|Moyeni Quithing|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.71411,-30.40113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manyaraleng General Dealer</name>
+        <description>B|58969635|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70452,-30.40054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercy Cosmetics Shop</name>
+        <description>B|59025473|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69866,-30.40035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bold and Beautiful</name>
+        <description>E|58928865|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69893,-30.40029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sekoting General Cafe</name>
+        <description>B|50326207|Sebapala|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70944,-30.39995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boitumelo General Cafe</name>
+        <description>E|58772027|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70443,-30.39994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Come and See Clothing</name>
+        <description>C|50329171|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.7008,-30.39993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Like Father Like Son Tuck Shop</name>
+        <description>B|50329056|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.71475,-30.39989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M and P General Dealer</name>
+        <description>C|58424024|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70911,-30.39967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Coopers</name>
+        <description>B|50326082|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69958,-30.39955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MelidahS Creation Sewing and Craft</name>
+        <description>D|50326228|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.69994,-30.39919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twins General Dealer</name>
+        <description>D|50326556|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70791,-30.39776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roll in General dealer</name>
+        <description>E|58697724|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70991,-30.39724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motsemocha General Cafe</name>
+        <description>C|50326168|Moyeni Quithing|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.63792,-30.39639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ASKOP Tarven</name>
+        <description>D|50329019|Alwynskop|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.62537,-30.39512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sebokeng Tavern</name>
+        <description>E|58504525|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.63745,-30.39408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phola Park Resturent</name>
+        <description>D|58961767|Moyeni Quithing|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.64184,-30.39,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsibolane General Cafe</name>
+        <description>C|50985321|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70619,-30.37568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mphatsoe General Cafe</name>
+        <description>E|58492239|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70537,-30.37558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>007 Tavern</name>
+        <description>C|50326225|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.68795,-30.37224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya Futhi General Cafe</name>
+        <description>C|58838635|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.74661,-30.32888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MAT General Cafe agent</name>
+        <description>D|50325691|Sebapala|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.74501,-30.27807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No1 Tarven</name>
+        <description>B|50326128|Mount Moorosi|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.87573,-30.27116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thaba Tseka General Cafe</name>
+        <description>C|50326347|Qhoali|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.95649,-30.20498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holy grounds General Dealer</name>
+        <description>D|58417608|Moyeni Quithing|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.95771,-30.20461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malunga G Cafe</name>
+        <description>B|50326538|Qhoali|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.09853,-30.19095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Come Again G Cafe</name>
+        <description>C|50326518|Qhoali|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.2437,-30.04999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>80s Public Bar</name>
+        <description>B|59191335|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Four Kids G Cafe</name>
+        <description>E|53399552|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jerry cafe</name>
+        <description>D|58946445|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            27.70352,-30.40052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>QN</name>
+      <Placemark>
+        <name>Semphete General Cafe</name>
+        <description>D| 56277234 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68527,-30.12859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coolside General Cafe</name>
+        <description>D| 56269039 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68337,-30.12858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naleli Car Wash</name>
+        <description>C| 58144330 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68813,-30.12579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazenod Printing Works</name>
+        <description>D| 56696072 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68946,-30.1209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HILLSIDE</name>
+        <description>B| 50332464 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.25139,-30.12043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Sisters No1</name>
+        <description>C| 50325543 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68523,-30.11858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bongani catering</name>
+        <description>E| 56277256 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68377,-30.11845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Motlomelo</name>
+        <description>E| 58881512 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68494,-30.11839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ducks T Shirt Printing</name>
+        <description>E| 50332460 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68457,-30.11809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bataung General Cafe</name>
+        <description>D| 50985048 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68494,-30.11805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nthabiseng Vodacom container</name>
+        <description>A| 56277260 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68449,-30.11794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat Cat G Cafe</name>
+        <description>B| 50325445 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.69113,-30.11794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juluka general cafe</name>
+        <description>E| 56277253 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68495,-30.11783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KFS Fruits and Vegetables</name>
+        <description>A| 50299567 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68462,-30.11782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Mokuoane</name>
+        <description>E| 56230408 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68436,-30.11748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atamelang General Dealer</name>
+        <description>C| 50332456 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.684,-30.11737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phomolong General Dealer</name>
+        <description>D| 50329801 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.25429,-30.11595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soweto Spaza Ithabeleng Kotoane</name>
+        <description>E| 56230425 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.67806,-30.11504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Annas bed and breakfast</name>
+        <description>E| 56277242 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.67712,-30.11449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Midlands Home G Cafe</name>
+        <description>B| 50329784 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68877,-30.11406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mabafokeng Tavern</name>
+        <description>E| 56277259 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.67098,-30.1092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ATM and Daughters G Dealer</name>
+        <description>C| 50332482 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.69826,-30.10355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hashtag World Hatchery and Chicks Supply</name>
+        <description>E| 58140138 | Central |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.67075,-30.10225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sentebale Gen Cafe</name>
+        <description>E| 56277247 | Central |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.676,-30.10182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Selemela Enterprise</name>
+        <description>D| 58141113 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.27384,-30.08656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hei Hoo Catering</name>
+        <description>D| 56312144 | Area 2 |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.62235,-30.07545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tlasetsang general cafe</name>
+        <description>C| 56277236 | Area 2 |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.62103,-30.07103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Semphete general cafe</name>
+        <description>E| 56277261 | Area 2 |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.60407,-30.06744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teele General Cafe</name>
+        <description>E| 56696111 | Main Road |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.51475,-30.0632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sweet Water Tarven</name>
+        <description>D| 63301896 | Area 2 |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.64001,-30.05825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baballang General Cafe</name>
+        <description>D| 56696141 | Main Road |</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.47089,-30.05371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lenong Snack bar</name>
+        <description>D| 50985046 | Main Road |Sehlabathebe</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.93414,-30.0498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>yong kang PTY LTD</name>
+        <description>C| 51891130 | Main Road |Sehlabathebe</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.93361,-30.0496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kopanag ka Lerato Basali ba Patlong</name>
+        <description>D| 50334594 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.36171,-30.04742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Lenkoane</name>
+        <description>B| 56312188 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.36137,-30.04722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ranta E Oele General Dealer</name>
+        <description>B| 56277254 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.35909,-30.04428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lefikeng General Dealer</name>
+        <description>D| 56696221 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.65642,-30.0431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Habi</name>
+        <description>E| 56312067 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.44973,-30.04285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matlanyane Khoai</name>
+        <description>D| 56277239 | Main Road |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.3582,-30.04242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>mothala lebina</name>
+        <description>D| 50985365 | Area 2 |QN</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.61078,-30.03986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kananelo General Dealer</name>
+        <description>E| 50985624 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68188,-30.03754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khothalang General Dealer</name>
+        <description>B| 56696146 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.72119,-30.03016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>See Saw General Cafe</name>
+        <description>E| 50325446 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.72126,-30.02977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thuleng Sun General Dealer</name>
+        <description>D| 58140135 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.69614,-30.02961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>roadside one</name>
+        <description>C| 50985367 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.67033,-30.01989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsekela general cafe</name>
+        <description>C| 56277250 | Area 2 |Tsoelike</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.66594,-30.01411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Welcome Supermarket</name>
+        <description>C| 50329725 | Main Road |Sehlabathebe</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            29.05042,-29.90116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Makhele</name>
+        <description>E| 58851535 | Mobile Agent |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68436,-30.11748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TPM Construction</name>
+        <description>E| 50299460 |  |Unmapped</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68436,-30.11748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPU  Stationery and Communications</name>
+        <description>A|50325444|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68559,-30.11913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpha Printing</name>
+        <description>D|50467300|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68603,-30.11897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mr Jean</name>
+        <description>E|50326157|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68521,-30.11876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabo Lehakoe</name>
+        <description>E|58491926|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68527,-30.11869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Maliba</name>
+        <description>E|56975539|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68494,-30.11839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Good Trading Pty Ltd</name>
+        <description>E|50326992|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68508,-30.11837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mobile Agent Leroba</name>
+        <description>E|56215633|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68496,-30.11837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Shop Tumo</name>
+        <description>C|50329648|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68458,-30.11789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonang Ntai</name>
+        <description>C|58578600|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68452,-30.11773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tsoha Morobali General Cafe</name>
+        <description>E|59464391|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.66523,-30.11773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sebopeho Lira Thamae</name>
+        <description>E|58034556|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68425,-30.11755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puleng Mohapi</name>
+        <description>D|50326485|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.684,-30.11729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dozen Brains</name>
+        <description>E|58947013|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68503,-30.1159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molleloa General Dealer</name>
+        <description>D|50326234|Qachas Nek|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.2545,-30.11566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washing basket drycleaner</name>
+        <description>E|56277237|Qachas Nek|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68071,-30.11442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lifofaneng Tuck Shop</name>
+        <description>C|50329627|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.66768,-30.1069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kholokoe General Cafe</name>
+        <description>D|58429447|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68586,-30.1016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sebelaele General Cafe</name>
+        <description>D|50326309|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68439,-30.09866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tlokoa General Cafe</name>
+        <description>E|50326308|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.72585,-30.09815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atlehang General Cafe</name>
+        <description>E|50326990|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.71828,-30.09747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabang Store</name>
+        <description>C|50326274|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.27556,-30.09313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spaza Molupi</name>
+        <description>E|50326242|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.64304,-30.09172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakoena General Deal</name>
+        <description>E|50329822|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.5602,-30.07331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khahliso general cafe</name>
+        <description>E|56277249|Qachas Nek|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.53715,-30.06466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naleli General Cafe</name>
+        <description>D|50329798|Tsoelike|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.63988,-30.05818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Payrite General Dealer</name>
+        <description>C|56277243|Qachas Nek|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.47659,-30.05767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matsieng General Dealer</name>
+        <description>C|50326233|Sehlabathebe|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.8038,-30.05597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thabong General Dealer</name>
+        <description>D|58429021|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.46881,-30.05271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moruris Catering</name>
+        <description>D|50329628|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.36165,-30.04733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The house of Monarch enterprise</name>
+        <description>D|59047584|Unmapped|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.36137,-30.04722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Sisters</name>
+        <description>C|56696155|Qachas Nek|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.36079,-30.04671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siddique Footwear and Textiles</name>
+        <description>D|50326164|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.35984,-30.04547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mocha o Chele Cash and Carry</name>
+        <description>D|57773220|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.35836,-30.04203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nthabeleng General Dealer</name>
+        <description>E|58425178|Qachas Nek|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.45648,-30.04195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bakoena G Delaer</name>
+        <description>E|50246880|Tsoelike|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68109,-30.03748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mapholing General Dealer</name>
+        <description>E|50329803|Sehlabathebe|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            29.02982,-29.94111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ntlafatsang General cafe</name>
+        <description>E|59444829|Lebakeng|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.79764,-29.93683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bafokeng G Dealer</name>
+        <description>D|50246882|Sehlabathebe|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            29.04144,-29.92288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manyonyoba General cafe agent</name>
+        <description>E|50325655|Lebakeng|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68656,-29.91477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mosututsong Store</name>
+        <description>E|50326307|Sehlabathebe|Pending</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            29.05286,-29.89593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lehlohonolo General Cafe</name>
+        <description>D|50329039|Sehlabathebe|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            29.03459,-29.88617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramatheola General Dealer</name>
+        <description>C|50326071|Sehlabathebe|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            29.06345,-29.85911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naledi General Dealer</name>
+        <description>E|63033339|Unmapped|</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            28.68436,-30.11748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>Directions from Monakane General Dealer to Unnamed Road, Phamong, Lesotho</name>
+      <Placemark>
+        <name>Directions from Monakane General Dealer to Unnamed Road, Phamong, Lesotho</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            27.8299,-30.20717,0
+            27.82991,-30.20717,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Monakane General Dealer</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            27.8299032,-30.2071687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unnamed Road, Phamong, Lesotho</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            27.8299052,-30.2071698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
